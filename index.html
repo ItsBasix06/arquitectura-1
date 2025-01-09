@@ -124,6 +124,37 @@
         #contenedor-clientes article h3 { font-style: italic;}
         #contenedor-clientes article img { width: 40%;border-radius: 50%;}
         #izquierda, #derecha { width: 40%;}
+        @media screen and (max-width:600px) {
+             nav {
+                background-color: blue;
+                text-align: center;
+                font-size: 1em;
+                display: block;
+                position: auto;
+                top: auto;}
+                nav a{
+                    display: block;
+                
+             }
+        
+        #contenedor-servicios {
+            display: block;
+           
+        }
+        #izquierda, #derecha {
+            width: 90%;
+            margin: auto;
+            border: 2px solid blue;
+        }
+        #contenedor-obras { display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        border: 2px solid orange;
+        padding: 10px;
+        
+        }
+        #contenedor-obras article { width: 90%;}
+    }/*Fin del @media */
     </style>
     <script src="https://kit.fontawesome.com/fe060c3d5b.js" crossorigin="anonymous"></script>
 </head>
@@ -146,7 +177,7 @@
         <div id="contenedor-servicios">
 
            
-            <iframe id="izquierda" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1836.8079056640304!2d-2.590156815736633!3d39.26260855496169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1702903444679!5m2!1ses!2ses" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe id="izquierda" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1836.8079056640304!2d-2.590156815736633!3d39.26260855496169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1702903444679!5m2!1ses!2ses" width="800" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div id="derecha">
                 <h2>Dónde estamos</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda hic quae eaque neque labore nisi beatae. Molestias quia deserunt aliquam, porro numquam aperiam et non enim nam aspernatur quo culpa.</p>
